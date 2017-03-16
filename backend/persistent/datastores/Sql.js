@@ -12,6 +12,7 @@ const REDSHIFT_OPTIONS = {
     keepDefaultTimezone: true,  // avoid SET TIMEZONE
     databaseVersion: '8.0.2',   // avoid SHOW SERVER_VERSION
     dialectOptions: {
+        instanceName: 'SQLEXPRESS',
         ssl: true
     }
 };
